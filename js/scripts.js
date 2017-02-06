@@ -3,5 +3,5 @@ console.log(itemsByButton);
 
 for ( var i = 0; i < itemsByButton.length; i++) {
 
-  console.log(itemsByButton[i].innerText);
+  console.log('Tekst wewnątrz tagu button: ' + itemsByButton[i].innerText);
 }
