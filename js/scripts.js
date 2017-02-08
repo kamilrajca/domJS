@@ -10,18 +10,6 @@ for ( var i = 0; i < itemsByButton.length; i++) {
 var list = document.getElementById('Lista');
 var add = document.getElementById('addElem');
 
-// add.addEventListener('click', function() {
-//   list.innerHTML += '<li>item</li>'
-  
-
-//   var li = list.getElementsByTagName('li');
-
-//   for (var x=0; x<li.length; x++) {
-//     li[x] += x + 1;
-//   }
-
-// });
-
 add.addEventListener('click', function() {
   var li = list.getElementsByTagName('li');
   var number = li.length;
